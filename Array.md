@@ -19,7 +19,8 @@ An **array** is a collection of _homogeneous_ items stored at _contigious memory
 ![array data structure](/assets/array.png)
 <br>
 
-```class Array {
+```java
+class Array {
     public static void main(String args[]) {
         char[] chararr = { 'U', 'B', 'F', 'D', 'A', 'E', 'C' };
     }
@@ -45,7 +46,7 @@ In the above example address of the first element of the array is 200. As it is 
 
 - Arrays in c++ are allocated in a stack unless they are dynamically allocated. using the "new" operator arrays are allocated in heap.
 
-```
+```cpp
 void main(){
   int arr[5]=[1,2,3,4,5]; // stack allocation
   int *arr=new int[5]; //heap allocation
@@ -82,7 +83,7 @@ int arr[] = new int[10];
 - ArrayList is a part of collection frame work in java.
 - declaration :
 
-```
+```java
 import java.util.ArrayList;
 ArrayList<Integer> arrL = new ArrayList<Integer>();
 ```
@@ -144,7 +145,7 @@ for other functions of ArrayList [Refer this link](https://docs.oracle.com/javas
 >
 > - **Linear search :** linearly traversing through the array untill the key is found. if the key is found the function returns position, else -1.<br> > _Complexity : O(n)_
 
-```
+```java
 class Search {
     public static void main(String args[]) {
         int arr[] = { 1, 2, 3, 4, 5 };
@@ -164,7 +165,7 @@ class Search {
 
 > - **Binary search :** Search a sorted array by repeatedly dividing the search interval in half. Begin with an interval covering the whole array. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise narrow it to the upper half. Repeatedly check until the value is found or the interval is empty.. if the key is found the function returns position, else -1.<br> > _Complexity : O(log n)_
 
-```
+```java
 class Search {
     public static void main(String args[]) {
         int arr[] = { 1, 2, 3, 4, 5 };
@@ -201,7 +202,7 @@ class Search {
 > 5.  Convert ArrayList back to array and print.
 >     _Complexity : O(n)_
 
-```
+```java
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -232,7 +233,7 @@ public class AddElementAtPositionInArray {
 
 The LinkedList stores its items in "containers." The list has a link to the first container and each container has a link to the next container in the list. To add an element to the list, the element is placed into a new container and that container is linked to one of the other containers in the list.
 
-```
+```java
 import java.util.LinkedList;
 
 public class MyClass {

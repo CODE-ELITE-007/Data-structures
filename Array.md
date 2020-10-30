@@ -55,7 +55,7 @@ void main(){
 
 - Arrays in java are always allocated in a heap.
 
-```
+```java
 public static void main(String args[]){
   int[] arr=new int[5]; //heap allocation
   int arr[5]=[1,2,3,4,5]; //heap allocation
@@ -69,7 +69,7 @@ public static void main(String args[]){
 - An array is a basic data structure provided by java.
 - declaration :
 
-```
+```java
 int arr[] = new int[10];
 ```
 
